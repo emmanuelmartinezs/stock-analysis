@@ -1,1 +1,1 @@
-# VBA-ticker
+# stock-analysis

@@ -14,6 +14,8 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 - Add the VBA_Challenge.vbs script to the Microsoft Visual Basic editor.
 - Use the steps **Refactor VBA code and measure performance** to add code where indicated by the numbered comments in the starter code file.
 
+> Use your knowledge of VBA and the starter code provided in this Project to refactor the VBA Script dataset so we loop through the data one time and collect all of the information.
+
 #### Our Challenge Data Background
 > Steve loves the workbook you prepared for him. At the click of a button, he can analyze an entire dataset. Now, to do a little more research for his parents, he wants to expand the dataset to include the entire stock market over the last few years. Although your code works well for a dozen stocks, it might not work as well for thousands of stocks. And if it does, it may take a long time to execute.
 
@@ -21,34 +23,35 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 
 > Refactoring is a key part of the coding process. When refactoring code, you aren’t adding new functionality; you just want to make the code more efficient—by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read. Refactoring is common on the job because first attempts at code won’t always be the best way to accomplish a task. Sometimes, refactoring someone else’s code will be your entry point to working with the existing code at a job.
 
-### Analysis of Outcomes Based on Launch Date
+### Refactor VBA Code and Measure Performance
  
-#### Deliverable Requirements with detail analysis:
-**1. A Years column is created based on the Date Created Conversion column in the Kickstarter spreadsheet.**
+#### Deliverable Requirements below:
 
-> In the "Years" column, use the `YEAR()` function to extract the year from the “Date Created Conversion” column.
+**1. The `tickerIndex` is set equal to zero before looping over the rows.**
 
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/kickstarter-analysis/blob/master/artifacts_images/A%20Years%20column%20is%20created.PNG?raw=true)
+> Created a `tickerIndex` variable and set it equal to zero before iterating over all the rows. Will use this `tickerIndex` to access the correct index across the four different arrays on VBA Code: the tickers array and the three output arrays created on next requierement.
 
 
-**2. A pivot table is created in a new worksheet labeled "Outcomes Based on Launch Date".**
+![name-of-you-image](https://github.com/emmanuelmartinezs/stock-analysis/blob/master/data_files/resources/The%20tickerIndex.PNG?raw=true)
+
+
+**2. Arrays are created for `tickers`, `tickerVolumes`, `tickerStartingPrices`, and `tickerEndingPrices`.**
 
 > Created a pivot table from the KickStarter worksheet, and placed the pivot table in a new sheet.
 
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/kickstarter-analysis/blob/master/artifacts_images/Pivot%20Table%20for%20Outcomes%20Based%20on%20Launch%20Date.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/stock-analysis/blob/master/data_files/resources/Arrays%20are%20created.PNG?raw=true)
 
 
-**3. The pivot table filters on "Parent Category" and "Years".**
+**3. The `tickerIndex` is used to access the stock ticker index for the `tickers`, `tickerVolumes`, `tickerStartingPrices`, and `tickerEndingPrices` arrays.**
 
 > Placed the appropriate pivot table pivot table based on Parent Category and the Years data filtered.
 
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/kickstarter-analysis/blob/master/artifacts_images/Pivot%20table%20filters%20on%20Parent%20Category%20and%20Years.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/stock-analysis/blob/master/data_files/resources/The%20tickerIndex%20is%20used%20to%20access%20the%20stock%20ticker.PNG?raw=true)
 
 
-**4. The columns, rows, and values in the pivot table fields are correctly populated.**
+**4. The script loops through stock data, reading and storing all of the following values from each row: `tickers`, `tickerVolumes`, `tickerStartingPrices`, and `tickerEndingPrices`.**
 
 > Placed the appropriate pivot table fields.
 
@@ -56,7 +59,7 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 ![name-of-you-image](https://github.com/emmanuelmartinezs/kickstarter-analysis/blob/master/artifacts_images/A%20Years%20column%20is%20created.PNG?raw=true)
 
 
-**5. The "Parent Category" is filtered on "theater".**
+**5. Code for formatting the cells in the spreadsheet is working.**
 
 > Placed the appropriate filter on pivot table.
 
@@ -64,7 +67,7 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 ![name-of-you-image](https://github.com/emmanuelmartinezs/kickstarter-analysis/blob/master/artifacts_images/Filtered%20on%20Theater.PNG?raw=true)
 
 
-**6. The row labels are changed to display the months of the year, and the campaign outcomes are sorted in descending order.**
+**6. There are comments to explain the purpose of the code.**
 
 > Grouping data in a PivotTable can help you show a subset of data to analyze. For example, you may want to group an unwieldy list of dates or times (date and time fields in the PivotTable) into quarters and months, etc.
 
@@ -72,13 +75,20 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 ![name-of-you-image](https://github.com/emmanuelmartinezs/kickstarter-analysis/blob/master/artifacts_images/Month%20on%20Row%20and%20Outcomes%20in%20descending.PNG?raw=true)
 
 
-**7. A line chart is created showing the number of successful, failed, or canceled projects by month, it has a title, and it is saved as** **[Theater_Outcomes_vs_Launch.png]**
+**7. The outputs for the 2017 and 2018 stock analyses in the `VBA_Challenge.xlsm` workbook match the outputs from the AllStockAnalysis in the module**
 
 > Created a line chart from the pivot table to visualize the relationship between outcomes and launch month.
 
 
 ![name-of-you-image](https://github.com/emmanuelmartinezs/kickstarter-analysis/blob/master/artifacts_images/Theater_Outcomes_vs_Launch.PNG?raw=true)
 
+
+**8. The pop-up messages showing the elapsed run time for the script are saved as `VBA_Challenge_2017.png` and `VBA_Challenge_2018.png`**
+
+> Created a line chart from the pivot table to visualize the relationship between outcomes and launch month.
+
+
+![name-of-you-image](https://github.com/emmanuelmartinezs/kickstarter-analysis/blob/master/artifacts_images/Theater_Outcomes_vs_Launch.PNG?raw=true)
 
 
 ### Analysis of Outcomes Based on Goals

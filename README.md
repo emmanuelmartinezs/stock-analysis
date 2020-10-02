@@ -56,7 +56,7 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 > Placed the appropriate pivot table fields.
 
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/kickstarter-analysis/blob/master/artifacts_images/A%20Years%20column%20is%20created.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/stock-analysis/blob/master/data_files/resources/The%20script%20loops%20through%20stock%20data,%20reading%20and%20storing.PNG?raw=true)
 
 
 **5. Code for formatting the cells in the spreadsheet is working.**
@@ -64,7 +64,7 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 > Placed the appropriate filter on pivot table.
 
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/kickstarter-analysis/blob/master/artifacts_images/Filtered%20on%20Theater.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/stock-analysis/blob/master/data_files/resources/Code%20for%20formatting%20the%20cells%20in%20the%20spreadsheet%20is%20working.PNG?raw=true)
 
 
 **6. There are comments to explain the purpose of the code.**
@@ -79,8 +79,11 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 
 > Created a line chart from the pivot table to visualize the relationship between outcomes and launch month.
 
+***VBA_Challenge_2017.PNG***
+![name-of-you-image](https://github.com/emmanuelmartinezs/stock-analysis/blob/master/data_files/resources/VBA_Challenge_2017.PNG?raw=true)
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/kickstarter-analysis/blob/master/artifacts_images/Theater_Outcomes_vs_Launch.PNG?raw=true)
+***VBA_Challenge_2018.PNG***
+![name-of-you-image](https://github.com/emmanuelmartinezs/stock-analysis/blob/master/data_files/resources/VBA_Challenge_2018.PNG?raw=true)
 
 
 **8. The pop-up messages showing the elapsed run time for the script are saved as `VBA_Challenge_2017.png` and `VBA_Challenge_2018.png`**
@@ -88,7 +91,12 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 > Created a line chart from the pivot table to visualize the relationship between outcomes and launch month.
 
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/kickstarter-analysis/blob/master/artifacts_images/Theater_Outcomes_vs_Launch.PNG?raw=true)
+***Time on VBA_Challenge_2017.PNG***
+![name-of-you-image](https://github.com/emmanuelmartinezs/stock-analysis/blob/master/data_files/resources/VBA_Challenge_2017.PNG?raw=true)
+
+***Time on VBA_Challenge_2018.PNG***
+![name-of-you-image](https://github.com/emmanuelmartinezs/stock-analysis/blob/master/data_files/resources/VBA_Challenge_2018.PNG?raw=true)
+
 
 
 ### Analysis of Outcomes Based on Goals

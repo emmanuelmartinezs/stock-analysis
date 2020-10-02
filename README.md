@@ -37,7 +37,9 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 
 **2. Arrays are created for `tickers`, `tickerVolumes`, `tickerStartingPrices`, and `tickerEndingPrices`.**
 
-> Created a pivot table from the KickStarter worksheet, and placed the pivot table in a new sheet.
+> Created three output arrays: `tickerVolumes`, `tickerStartingPrices`, and `tickerEndingPrices`.
+> In our VBA code, the `tickerVolumes` array should be a **Long** data type.
+> But in our VBA code the `tickerStartingPrices` and `tickerEndingPrices` arrays should be a **Single** data type.
 
 
 ![name-of-you-image](https://github.com/emmanuelmartinezs/stock-analysis/blob/master/data_files/resources/Arrays%20are%20created.PNG?raw=true)
@@ -45,7 +47,8 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 
 **3. The `tickerIndex` is used to access the stock ticker index for the `tickers`, `tickerVolumes`, `tickerStartingPrices`, and `tickerEndingPrices` arrays.**
 
-> Placed the appropriate pivot table pivot table based on Parent Category and the Years data filtered.
+> Created a for loop to initialize the `tickerVolumes` to **zero**. 
+> And if the next row’s ticker doesn’t match, increase the `tickerIndex`.
 
 
 ![name-of-you-image](https://github.com/emmanuelmartinezs/stock-analysis/blob/master/data_files/resources/The%20tickerIndex%20is%20used%20to%20access%20the%20stock%20ticker.PNG?raw=true)
@@ -53,10 +56,21 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 
 **4. The script loops through stock data, reading and storing all of the following values from each row: `tickers`, `tickerVolumes`, `tickerStartingPrices`, and `tickerEndingPrices`.**
 
-> Placed the appropriate pivot table fields.
+> Created a **loop** that will loop over all the rows in the spreadsheet.
+> Inside the **loop**, we created a script that increases the current `tickerVolumes` **(stock ticker volume)** variable and adds the ticker volume for the current stock ticker.
 
 
 ![name-of-you-image](https://github.com/emmanuelmartinezs/stock-analysis/blob/master/data_files/resources/The%20script%20loops%20through%20stock%20data,%20reading%20and%20storing.PNG?raw=true)
+
+
+
+**Stored values from `tickerStartingPrices` and `tickerEndingPrices`
+
+> Created an **if-then** statement to check if the current row is the first row with the selected `tickerIndex`. If it is, then assign the current closing price to the `tickerStartingPrices` and `tickerEndingPrices` variable.
+
+
+![name-of-you-image](https://github.com/emmanuelmartinezs/stock-analysis/blob/master/data_files/resources/The%20script%20loops%20through%20stock%20data,%20reading%20and%20storing.PNG?raw=true)
+
 
 
 **5. Code for formatting the cells in the spreadsheet is working.**

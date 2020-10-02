@@ -1,6 +1,6 @@
 # STOCK ANALYSIS WITH VBA + EXCEL
 
-## Overview of Project
+## OVERVIEW: VBA Stock Analysis Project
 
 ### Purpose
 In this project and analyisis, we’ll edit, or refactor, the Stock Market Dataset with VBA solution code to loop through all the data one time in order to collect an entire dataser. Then, we’ll determine whether refactoring your code successfully made the VBA script run faster. Finally, we just want to make the code more efficient—by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read.. 
@@ -23,9 +23,9 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 
 > Refactoring is a key part of the coding process. When refactoring code, you aren’t adding new functionality; you just want to make the code more efficient—by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read. Refactoring is common on the job because first attempts at code won’t always be the best way to accomplish a task. Sometimes, refactoring someone else’s code will be your entry point to working with the existing code at a job.
 
-### Refactor VBA Code and Measure Performance
+### RESULTS: Refactor VBA Code and Measure Performance
  
-#### Deliverable Requirements below:
+#### Deliverable Requirements, Code Examples, Compare Stock Performance and Timestamp procedure below:
 
 **1. The `tickerIndex` is set equal to zero before looping over the rows.**
 
@@ -137,11 +137,10 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 
 
 
+### SUMMARY: Our Statement:
 
-### Analysis of Outcomes Based on Goals
-
-#### Deliverable Requirements with detail analysis:
-**1. A new sheet is created with eight columns and twelve rows, according to the instructions.**
+#### Deliverable with detail analysis:
+**1. What are the advantages or disadvantages of refactoring code?**
 
 > In the new sheet, create the following columns to hold the data:
 > - Goal
@@ -156,81 +155,9 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 > In the “Goal” column, create the following dollar-amount ranges so projects can be grouped based on their goal amount.
 
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/kickstarter-analysis/blob/master/artifacts_images/eight%20columns%20and%20twelve%20rows.PNG?raw=true)
-
-
-**2. The `COUNTIFS()` function is used to populate the "Number Successful," "Number Failed," and "Number Canceled" columns, based on the project "outcome," the "goal" amount using the goal ranges in Step 3, and the Subcategory "plays".**
+**2. How do these pros and cons apply to refactoring the original VBA script?**
 
 > Used `COUNTIFS()` functions to populate the "Number Successful," "Number Failed," and "Number Canceled" columns by filtering on the Kickstarter "outcome" column, on the "goal" amount column using the ranges created, and on the "Subcategory" column using "plays" as the criteria.Created a pivot table from the KickStarter worksheet, and placed the pivot table in a new sheet.
-
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/kickstarter-analysis/blob/master/artifacts_images/The%20COUNTIFS()%20function.PNG?raw=true)
-
-
-**3. The `SUM()` function is used on each row to add the "Number Successful," "Number Failed," and "Number Canceled" columns to populate the "Total Projects" column.**
-
-> Use the `SUM()` function to populate the "Total Projects" column with the number of successful, failed, and canceled projects for each row.
-
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/kickstarter-analysis/blob/master/artifacts_images/The%20SUM()%20function.PNG?raw=true)
-
-
-**4. The percentages of successful, failed, and canceled projects are calculated based on the data from the "Total Projects," "Number Successful," "Number Failed," and "Number Canceled" columns.**
-
-> Calculated the percentage of successful, failed, and canceled projects for each row.
-
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/kickstarter-analysis/blob/master/artifacts_images/The%20percentages.PNG?raw=true)
-
-
-**5. A line chart is created and saved as **[Outcomes_vs_Goals.png]** with the goal-amount ranges on the x-axis, the percentage of successful, failed, or canceled projects on the y-axis, and an appropriate title.**
-
-> Created a line chart titled "Outcomes Based on Goal" to visualize the relationship between the goal-amount ranges on the x-axis and the percentage of successful, failed, or canceled projects on the y-axis.
-
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/kickstarter-analysis/blob/master/artifacts_images/Outcomes_vs_Goals.PNG?raw=true)
-
-
-
-### Challenges and Difficulties Encountered
-
-Biggest challenge was filtering the pivot table to visualize the relationship between parent category and years, adding the correct dataset into the Columns, Rows and Values.
-
-
-## Results
-
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
-
-> As Conclusions, our Line charts we can see by looking at our data that the months of **May and June** both have a greater success rate.
-> A bar chart **wouldn't** be able to convey this information in the same manner.
-
-
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/kickstarter-analysis/blob/master/artifacts_images/Theater_Outcomes_vs_Launch.PNG?raw=true)
-
-
-
-- What can you conclude about the Outcomes based on Goals?
-
-> As Conclusion, our Outcomes based on Goals measures using line chart of central tendency work in practice help us finding the mean and median for each dataset's (the failed and successful campaigns).
-
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/kickstarter-analysis/blob/master/artifacts_images/Outcomes_vs_Goals.PNG?raw=true)
-
-
-- What are some limitations of this dataset?
-
-> Some limitation can be that we'd like to know the deviations from the actual dataset, but because we don't know, these deviations have a subtle and slight bias to them. 
-
-
-- What are some other possible tables and/or graphs that we could create?
-
-> - Box Plots
-> - Pie Graph
-> - Column Graph
-> - Line Graph
-> - Area Graph
-> - Scatter Graph
 
 
 

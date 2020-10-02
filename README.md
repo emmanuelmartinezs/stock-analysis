@@ -23,7 +23,7 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 
 > Refactoring is a key part of the coding process. When refactoring code, you aren’t adding new functionality; you just want to make the code more efficient—by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read. Refactoring is common on the job because first attempts at code won’t always be the best way to accomplish a task. Sometimes, refactoring someone else’s code will be your entry point to working with the existing code at a job.
 
-### RESULTS: Refactor VBA Code and Measure Performance
+## RESULTS: Refactor VBA Code and Measure Performance
  
 #### Deliverable Requirements, Code Examples, Compare Stock Performance and Timestamp procedure below:
 
@@ -137,7 +137,7 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 
 
 
-### SUMMARY: Our Statement:
+## SUMMARY: Our Statement:
 
 #### Deliverable with detail analysis:
 **1. What are the advantages or disadvantages of refactoring code?**

@@ -72,7 +72,7 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 > Grouping data in a PivotTable can help you show a subset of data to analyze. For example, you may want to group an unwieldy list of dates or times (date and time fields in the PivotTable) into quarters and months, etc.
 
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/kickstarter-analysis/blob/master/artifacts_images/Month%20on%20Row%20and%20Outcomes%20in%20descending.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/stock-analysis/blob/master/data_files/resources/Comments%20to%20explain%20the%20purpose%20of%20the%20code.PNG?raw=true)
 
 
 **7. The outputs for the 2017 and 2018 stock analyses in the `VBA_Challenge.xlsm` workbook match the outputs from the AllStockAnalysis in the module**
@@ -80,9 +80,12 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 > Created a line chart from the pivot table to visualize the relationship between outcomes and launch month.
 
 ***VBA_Challenge_2017.PNG***
+
 ![name-of-you-image](https://github.com/emmanuelmartinezs/stock-analysis/blob/master/data_files/resources/VBA_Challenge_2017.PNG?raw=true)
 
+
 ***VBA_Challenge_2018.PNG***
+
 ![name-of-you-image](https://github.com/emmanuelmartinezs/stock-analysis/blob/master/data_files/resources/VBA_Challenge_2018.PNG?raw=true)
 
 
@@ -92,10 +95,17 @@ Here's a quick look at the Kickstarting Analysis and Challenges of this Project,
 
 
 ***Time on VBA_Challenge_2017.PNG***
-![name-of-you-image](https://github.com/emmanuelmartinezs/stock-analysis/blob/master/data_files/resources/VBA_Challenge_2017.PNG?raw=true)
+
+![name-of-you-image](https://github.com/emmanuelmartinezs/stock-analysis/blob/master/data_files/resources/Time%20for%202017%20analysis.PNG?raw=true)
+
 
 ***Time on VBA_Challenge_2018.PNG***
-![name-of-you-image](https://github.com/emmanuelmartinezs/stock-analysis/blob/master/data_files/resources/VBA_Challenge_2018.PNG?raw=true)
+
+![name-of-you-image](https://github.com/emmanuelmartinezs/stock-analysis/blob/master/data_files/resources/Time%20for%202018%20analysis.PNG?raw=true)
+
+
+
+
 
 
 
